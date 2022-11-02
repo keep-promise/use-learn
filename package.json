@@ -1,0 +1,19 @@
+{
+  "name": "use-learn",
+  "version": "1.0.0",
+  "description": "use learn demo",
+  "license": "MIT",
+  "author": {
+    "name": "keep promise"
+  },
+  "repository": "https://gitlab.alibaba-inc.com/xreplay/xreplay",
+  "scripts": {
+    "postinstall": "lerna clean --yes && lerna bootstrap",
+    "clean": "lerna run clean --parallel",
+    "build": "npm run clean && lerna exec -- npm run build",
+    "publish": "npm run build && lerna publish --npmClient=tnpm"
+  },
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
+}
