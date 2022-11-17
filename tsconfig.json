@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "downlevelIteration": true,
+    "jsx": "react-jsx",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "allowUnreachableCode": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "importsNotUsedAsValues": "error",
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitUseStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "pretty": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "scripthost",
+      "webworker"
+    ],
+    "baseUrl": "packages",
+    "paths": {
+      "@npm-name": [ // npm包本地调试代理到的目录
+        "npm-name/src/" // 要代理本地代码
+      ]
+    }
+  }
+}
