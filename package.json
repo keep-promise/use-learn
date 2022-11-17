@@ -1,7 +1,7 @@
 {
-  "name": "use-learn",
+  "name": "use-lerna",
   "version": "1.0.0",
-  "description": "use learn demo",
+  "description": "use lerna demo",
   "license": "MIT",
   "author": {
     "name": "keep promise"
